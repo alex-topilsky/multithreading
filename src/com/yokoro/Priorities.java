@@ -28,7 +28,7 @@ public class Priorities {
                 double d1 = Math.sqrt(2);
                 double d2 = Math.sqrt(2);
                 double d3 = Math.sqrt(2);
-                double d4 = Math.sqrt(2);
+                double d4 = Math.sqrt(2);//123
             }
             System.out.println("3 wins: " + getClass().getSimpleName() + " " + Thread.currentThread().getName());
         });
