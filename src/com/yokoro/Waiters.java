@@ -28,6 +28,7 @@ class Waiters {
                 notify();
             } catch (InterruptedException e) {
                 e.printStackTrace();
+                Thread.currentThread().interrupt();
             }
         }
     }
@@ -44,6 +45,7 @@ class Waiters {
                 notify();
             } catch (InterruptedException e) {
                 e.printStackTrace();
+                Thread.currentThread().interrupt();
             }
         }
     }
@@ -57,6 +59,7 @@ class Waiters {
                 System.out.println(getClass().getSimpleName() + " " + Thread.currentThread().getName());
             } catch (InterruptedException e) {
                 e.printStackTrace();
+                Thread.currentThread().interrupt();
             }
         }
     }

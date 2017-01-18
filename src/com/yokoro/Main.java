@@ -6,7 +6,7 @@ public class Main {
 
 //        new Interrupters().start();
 
-//        new Yielder().start();
+        new Yielder().start();
 
 //        new Daemons().start();
 
@@ -18,8 +18,9 @@ public class Main {
 
 //        new Synchronizes().start();
 
-        new Priorities().start();
+//        new Priorities().start();
 
+        
         System.out.println("Finish from Main" + " " + Thread.currentThread().getName());
     }
 }

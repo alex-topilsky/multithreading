@@ -21,6 +21,7 @@ public class Yielder {
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
+                    Thread.currentThread().interrupt();
                     break;
                 }
                 if(Thread.interrupted()) System.out.println("GGGG");
@@ -40,6 +41,7 @@ public class Yielder {
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
+                    Thread.currentThread().interrupt();
                     break;
                 }
             } while (i < 5);

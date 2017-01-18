@@ -1,7 +1,7 @@
 package com.yokoro;
 
 
-public class Daemons {
+public class Daemons{
 
     public void start(){
         SimpleDaemon sd1 = new SimpleDaemon();
